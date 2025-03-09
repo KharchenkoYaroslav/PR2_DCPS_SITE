@@ -76,11 +76,11 @@ async function addReading() {
     <div class="d-flex align-items-center gap-3 mb-2">
       <div class="d-flex align-items-center gap-2">
         <label class="form-label m-0">День:</label>
-        <input v-model.number="newDayReading" class="form-control" placeholder="День" type="number" />
+        <input v-model.number="newDayReading" class="form-control" placeholder="День" type="number" min="0"/>
       </div>
       <div class="d-flex align-items-center gap-2">
         <label class="form-label m-0">Ніч:</label>
-        <input v-model.number="newNightReading" class="form-control" placeholder="Ніч" type="number" />
+        <input v-model.number="newNightReading" class="form-control" placeholder="Ніч" type="number" min="0"/>
       </div>
     </div>
 
